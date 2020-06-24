@@ -1,8 +1,10 @@
-import conoil from '../../images/filling-stations/conoil/conoil002.jpg';
-import nnpc from '../../images/filling-stations/nnpc/nnpc001.jpg';
-import total from '../../images/filling-stations/total/total001.jpg';
-import shell from '../../images/filling-stations/shell/shell001.jpg';
-import caltex from '../../images/filling-stations/caltex/caltex001.jpg';
+import {
+	conoil,
+	total,
+	caltex,
+	shell,
+	nnpc,
+} from '../../assets/images/filling-stations/fuel-station.images.js';
 
 const FUEL_STATION_DATA = [
 	{
