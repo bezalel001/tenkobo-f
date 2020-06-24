@@ -1,5 +1,3 @@
-import React from 'react';
-
 import conoil from '../../images/filling-stations/conoil/conoil002.jpg';
 import nnpc from '../../images/filling-stations/nnpc/nnpc001.jpg';
 import total from '../../images/filling-stations/total/total001.jpg';
