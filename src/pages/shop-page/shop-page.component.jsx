@@ -4,7 +4,7 @@ import FUEL_STATION_DATA from './fuel-station.data';
 
 import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
-class FuelStationPage extends React.Component {
+class ShopPage extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -25,4 +25,4 @@ class FuelStationPage extends React.Component {
 	}
 }
 
-export default FuelStationPage;
+export default ShopPage;
