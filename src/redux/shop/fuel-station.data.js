@@ -6,8 +6,8 @@ import {
 	nnpc,
 } from '../../assets/images/filling-stations/fuel-station.images.js';
 
-const FUEL_STATION_DATA = [
-	{
+const FUEL_STATION_DATA = {
+	conoil: {
 		id: 1,
 		title: 'Conoil',
 		routeName: 'conoil',
@@ -68,7 +68,7 @@ const FUEL_STATION_DATA = [
 			},
 		],
 	},
-	{
+	total: {
 		id: 2,
 		title: 'Total',
 		routeName: 'total',
@@ -123,7 +123,7 @@ const FUEL_STATION_DATA = [
 			},
 		],
 	},
-	{
+	shell: {
 		id: 3,
 		title: 'Shell',
 		routeName: 'shell',
@@ -160,7 +160,7 @@ const FUEL_STATION_DATA = [
 			},
 		],
 	},
-	{
+	nnpc: {
 		id: 4,
 		title: 'NNPC',
 		routeName: 'nnpc',
@@ -209,7 +209,7 @@ const FUEL_STATION_DATA = [
 			},
 		],
 	},
-	{
+	caltex: {
 		id: 5,
 		title: 'Caltex',
 		routeName: 'caltex',
@@ -252,5 +252,5 @@ const FUEL_STATION_DATA = [
 			},
 		],
 	},
-];
+};
 export default FUEL_STATION_DATA;
